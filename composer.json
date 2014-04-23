@@ -1,0 +1,14 @@
+{
+    "name": "splunk/splunk-sdk-php",
+    "type": "library",
+    "description": "splunk sdk",
+    "keywords": ["splunk"],
+    "homepage": "http://dev.splunk.com/view/SP-CAAAEJM",
+    "license": "Apache License 2.0",
+    "require": {
+        "php":               ">=5.2.11"
+    },
+    "autoload": {
+        "classmap": ["Splunk/"]
+    }
+}
